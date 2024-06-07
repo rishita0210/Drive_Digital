@@ -1,0 +1,45 @@
+.email-box{
+    background-color: white;
+    padding :1rem 2rem;
+    width: 50%;
+    display:flex;
+    border-radius: 999px;
+   margin-left: 180px;
+   transition: transform 2s linear 2s;
+}
+
+.email-box>input{
+    outline:none;
+    border:none;
+    margin-left: 1rem;
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+    font-family: josefin sans;
+    flex:1;
+    transition: transform 2s linear 2s;
+    
+}
+.email-box> input::placeholder{
+    font-size: 1.5rem;
+
+}
+.getfunded{
+    position:absolute;
+    margin-left: 280px;
+
+    padding: 0rem 0.5rem;
+    background-color:#00caf9;
+    
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    display:flex;
+    color: white;
+}
+
+.getfunded>button{
+    height:30px;
+    background-color:#00caf9;
+    border: 0;
+    border-radius: 999px;
+}

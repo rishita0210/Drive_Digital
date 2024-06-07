@@ -1,0 +1,55 @@
+.container{
+    width:100%;
+    margin:auto ;
+    overflow:hidden;
+    background-color:#533fd7;
+}
+
+@media(min-width:2100px){
+    .container{
+        max-width:1600px;
+    }
+}
+
+.n-wrapper{
+    background-color:  #533fd7; 
+    color: aliceblue;
+   
+    width:100%;
+    position:absolute;
+    z-index:999;
+}
+
+.n-container{
+    padding: 1.5rem 1rem;
+    color:white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.n-logo{
+    font-weight: 400px;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right-side{
+    font-weight: 500;
+    font-size: large;
+    display:flex;
+    margin-top: 15px;
+    justify-content: center;
+    gap:1.5rem;
+}
+
+.right-side button{
+    height:30px;
+    width:100px;
+    border-radius: 0.5rem;
+    background-color: #54f3a6;
+    border-color: #54f3a6;
+    font-weight: 300;
+    color: black;
+}

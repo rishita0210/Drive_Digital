@@ -1,0 +1,14 @@
+
+.bv-container .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+ }
+ 
+ .bv-video{
+     width:75%;
+     border-radius: 4rem;
+     
+ 
+ }

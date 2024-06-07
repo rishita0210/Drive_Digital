@@ -1,0 +1,56 @@
+.wwi-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    height: 420px;
+    width: 420px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.head{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-top: 100px;
+}
+
+.wwi-features{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.des{
+    font-size: x-large;
+    font-weight: 600;
+    color: var(--fourth-color);
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-left: 30px;
+}
+
+.text{
+    font-size: large;
+    font-weight: 400;
+    gap:1.5rem;
+    margin-left: 30px;
+    
+}
+.tag{
+    color:var(--secondary-color);
+}
+
+.title2{
+    color: white;
+    font-weight: 600;
+  
+}
